@@ -1,0 +1,80 @@
+.results{
+  width: 50em;
+  height: 30em;
+  margin-right: 25px;
+}
+
+.followers {
+  width: 20%;
+  height: 10%;
+  text-align: left;
+  margin-left: 30em;
+  margin-top: -27em;
+}
+
+.repos{
+  width: 50em;
+  
+  text-align: left;
+}
+
+button{
+  padding: 0 53px 30px 17px;
+  height: 20px;
+  width: 50px;
+  margin-top: 120px;
+  margin-left: 1em;
+  background: rgb(188,195,203);
+}
+
+body{
+  text-align: center;
+}
+
+h1,#headd{
+  font-family: 'Lobster', cursive;
+  /*font-size: 20px;*/
+  color: black;
+}
+
+#header{
+  width: 100%;
+  height: 100px;
+  background-color: #DBCCCC ;
+}
+
+#show{
+  font-size: 20px;
+  width: 600px;
+  text-align: left;
+  margin: 30px 10px 0 10px;
+}
+
+.all{
+  height: 600px;
+  width: 800px;
+  background-color: #CEF7F7;
+  border-radius: 20px;
+  margin: 0 auto;
+
+}
+
+#button{
+  border-radius: 5px;
+}
+img{
+  height: 13em;
+  width: 13em;
+  border-radius: 20em;
+  margin-top: 15px;
+  margin-left: -8em;
+}
+#username{
+  font-size: 35px;
+  color: #999966;
+  margin-top: 20px;
+  margin-right: 4em;
+}
+p{
+
+}
