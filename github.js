@@ -14,6 +14,7 @@ var GitHubApp = {
     },
 
     getAns: function(){
+      $("#errorMessage").html("");
       $(".results").html("");
       $(".followers").html("");
       $(".repos").html("");
@@ -40,8 +41,11 @@ var GitHubApp = {
      $.ajax({
       url: url,
       datatype: "jsonp",
+
+      error: function(){
+        $('#errorMessage').html('<p>An error has occurred</p>');
+       },
       success: function(data,status){
-          console.log(data);
           var test = data.avatar_url;
           var followers = data.followers;
           var following = data.following;
